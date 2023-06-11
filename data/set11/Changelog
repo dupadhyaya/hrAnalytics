@@ -1,0 +1,58 @@
+ 2021-06-28
+ -Added 446 new records
+ -Created new Technology Locations "SanFran" and "Austin"
+  -New Job Title
+    Manager, Engineering
+    SVP, Technology
+    Senior, Copy Writer
+    Chief Marketing Officer
+    SVP, Marketing
+    Manager, Finance
+    Chief Financial Officer
+    Chief Human Resources Officer
+    Senior, Finance
+    Director, HR
+    Director, Finance
+    Chief Customer Officer
+  -Terminated - 688 workers up through 2023
+    Updated Term date and Active Status
+  -Corrected 
+    Manager Customer Service -> Manager, Customer Service
+    Associate Account Manager from Manager to IC and updated Bonus %
+    Corrected CEO and CTO compensation
+    Moved location for CTO to Boulder
+    -42 Term dates that were before start date
+   -Made all files .txt. This was to help when opening with Excel to stop it from opening the file automatically and breaking the leading zeros in the zipcode.
+
+
+2021-05-22
+  -Fixed Zip Code so leading zero is added back into data
+  -Created a Cost of Living Table (2021.06_COL_2021)
+  -Created mapping table for Job Profiles (2021.06_job_profile_mapping). Will add more details to these profiles in the future.
+
+2020-12-17
+  -Corrected Age calculations
+  -Removed columns 
+    (Birthday, NameType, New_Salary2, rando, St_dt_temp, TermDate)
+  -Added Columns
+    Active Status field - 1= Active employee and 0= Terminated employee
+  -Converted 655 employees to terms from 1/1/2018-12/31/2021
+ 
+
+
+    
+  
+
+
+
+    
+    
+
+
+
+
+
+
+
+    
+  

@@ -1,0 +1,55 @@
+Department	Job_title	Job_Profile	 Compensation 	Level	Bonus %
+Corporate	CEO	JP_1000	" 500,000.00 "	CSuite	1
+Corporate	HR Manager	JP_1001	" 100,000.00 "	Manager	0.2
+Corporate	AR Specialist	JP_1002	" 65,000.00 "	Individual Contributor	0.15
+Corporate	AP Specialist	JP_1003	" 65,000.00 "	Individual Contributor	0.15
+Corporate	FP&A Analyst	JP_1004	" 70,000.00 "	Individual Contributor	0.15
+Corporate	Coordinator	JP_1005	" 50,000.00 "	Individual Contributor	0.15
+Corporate	HR Coordinator	JP_1006	" 50,000.00 "	Individual Contributor	0.15
+Corporate	Counsel	JP_1007	" 220,000.00 "	Individual Contributor	0.15
+Corporate	Finance Coordinator	JP_1008	" 55,000.00 "	Individual Contributor	0.15
+Corporate	Accountant	JP_1009	" 85,000.00 "	Individual Contributor	0.15
+Corporate	"Specialist, Training and Development"	JP_1010	" 70,000.00 "	Individual Contributor	0.15
+Corporate	"Manager, Corporate"	JP_1011	" 120,000.00 "	Manager	0.15
+Corporate	"VP, Corporate"	JP_1012	" 225,000.00 "	VP	0.3
+Corporate	HR Generalist	JP_1013	" 75,000.00 "	Individual Contributor	0.15
+Corporate	HR Analyst	JP_1014	" 65,000.00 "	Individual Contributor	0.15
+Customer Service	Associate Account Manager	JP_1015	" 55,000.00 "	Individual Contributor	0.15
+Customer Service	Account Manager	JP_1016	" 70,000.00 "	Individual Contributor	0.15
+Customer Service	"SVP, Customer Service"	JP_1017	" 280,000.00 "	SVP	0.3
+Customer Service	Senior Account Manager	JP_1018	" 100,000.00 "	Senior	0.15
+Customer Service	"Manager, Customer Service"	JP_1019	" 85,000.00 "	Manager	0.2
+Customer Service	CS Operations Specialist	JP_1020	" 80,000.00 "	Individual Contributor	0.15
+Customer Service	"Director, Customer Service"	JP_1021	" 160,000.00 "	Director	0.2
+Marketing	Graphic Designer	JP_1022	" 75,000.00 "	Individual Contributor	0.15
+Marketing	Programmatic Marketing Specialist	JP_1023	" 70,000.00 "	Individual Contributor	0.15
+Marketing	Copy Writer	JP_1024	" 85,000.00 "	Individual Contributor	0.15
+Marketing	"Associate, Marketing"	JP_1025	" 120,000.00 "	Associate	0.1
+Marketing	"VP, Marketing"	JP_1026	" 250,000.00 "	VP	0.3
+Marketing	"Manager, Marketing"	JP_1027	" 130,000.00 "	Manager	0.2
+Marketing	"Director, Marketing"	JP_1028	" 190,000.00 "	Director	0.2
+Sales	Account Executive	JP_1029	" 85,000.00 "	Individual Contributor	0.15
+Sales	"Director, Sales"	JP_1030	" 175,000.00 "	Director	0.2
+Sales	Regional Sales Manager	JP_1031	" 140,000.00 "	Manager	0.2
+Sales	Sales Manager	JP_1032	" 120,000.00 "	Manager	0.2
+Sales	"SVP, Sales"	JP_1033	" 350,000.00 "	SVP	0.3
+Sales	Sales Team Lead	JP_1034	" 95,000.00 "	Senior	0.15
+Sales	"Associate, Sales"	JP_1035	" 75,000.00 "	Associate	0.1
+Technology	CTO	JP_1036	" 400,000.00 "	CSuite	0.5
+Technology	IT	JP_1037	" 80,000.00 "	Individual Contributor	0.15
+Technology	Software Engineer	JP_1038	" 110,000.00 "	Individual Contributor	0.15
+Technology	"Director, Engineering"	JP_1039	" 200,000.00 "	Director	0.2
+Technology	Senior Software Engineer	JP_1040	" 140,000.00 "	Senior	0.15
+Technology	"VP, Technology"	JP_1041	" 325,000.00 "	VP	0.3
+Technology	"Manager, Engineering"	JP_1042	" 155,000.00 "	Manager	0.2
+Technology	"SVP, Technology"	JP_1043	" 355,000.00 "	SVP	0.3
+Marketing	"Senior, Copy Writer"	JP_1044	" 100,000.00 "	Senior	0.15
+Marketing	Chief Marketing Officer	JP_1045	" 370,000.00 "	CSuite	0.5
+Marketing	"SVP, Marketing"	JP_1046	" 325,000.00 "	SVP	0.3
+Corporate	"Manager, Finance"	JP_1047	" 110,000.00 "	Manager	0.2
+Corporate	Chief Financial Officer	JP_1048	" 390,000.00 "	CSuite	0.5
+Corporate	Chief Human Resources Officer	JP_1049	" 380,000.00 "	CSuite	0.5
+Corporate	"Senior, Finance"	JP_1050	" 110,000.00 "	Senior	0.15
+Corporate	"Director, HR"	JP_1051	" 180,000.00 "	Director	0.2
+Corporate	"Director, Finance"	JP_1052	" 190,000.00 "	Director	0.2
+Customer Service	Chieft Customer Officer	JP_1053	" 380,000.00 "	CSuite	0.5

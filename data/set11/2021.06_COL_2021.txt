@@ -1,0 +1,10 @@
+Office	COL Amount	Currency
+NYC	100	USD
+Boulder	70	USD
+Oslo	70	NOK
+SanJose	90	USD
+London	90	GBP
+Tokyo	85	JPY
+HongKong	85	HKD
+SanFran	100	USD
+Austin	70	USD
