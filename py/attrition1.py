@@ -126,7 +126,33 @@ sns.heatmap(hr.corr(), annot=True, linewidths=.4, fmt= '.1f',ax=ax, vmin=.5, vma
 plt.show();
 
 #%%%Violin Plot
-#%%%Violin Plot
+#%%%Other Summaries
+hr.columns
+hr.dtypes
+hr[['Attrition', 'Department']].groupby(['Department','Attrition']).size().reset_index(name='counts')
+hr[['Attrition', 'Department']].groupby(['Department','Attrition']).agg({'Attrition':['count']}).reset_index()
+hr[['Attrition', 'Department']].groupby(['Department','Attrition'],as_index=False).size()
+hr[['Attrition', 'Department']]
+
+def attritionValue(val):
+    if val == 'Yes':
+        return 1
+    else:
+        return 0
+hr['Attrition'].replace(['Yes'],1)
+hr['AttritionValue'] = np.where(hr['Attrition']=='Yes',1,0)
+hrSum2 = hr[['AttritionValue', 'Department']].groupby(['Department'], as_index=False)['AttritionValue'].agg(np.mean)
+
+hrSum2
+hrSum2.plot(kind='barh',x='Department', y='AttritionValue', figsize=(8,6))
+plt.show();
+plt.barh(hrSum2.Department, hrSum2.AttritionValue)
+plt.show();
+sns.barplot(data=hrSum2, x='Department', y='AttritionValue')
+plt.title("Attrition Rate by Department")
+plt.show();
+#Sales department has the highest attrition rates for the company.L
+
 
 #%%%Links
 #https://www.kaggle.com/code/kukreti12/hr-analytics-using-python
