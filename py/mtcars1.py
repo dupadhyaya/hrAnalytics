@@ -162,7 +162,20 @@ mt2[1:5]
 mt2[mt2['mpg'] > 25, 'mpg']
 mt2.loc[3:5]
 mt2.iloc[0]
+
+#select/filter
+mt.filter(items=['mpg','am'])
+mt2.filter(items=[5], axis=0)
+mt2.filter(like='m')
+mt.filter(like='Ma', axis=0)
+mt.filter(regex='p')
+
+
 #%%% indexing
+len(mt)
+range(len(mt))
+mt.reindex(index=range(len(mt)))
+mt2
 mt2.index.has_duplicates
 mt2.index.is_monotonic_increasing
 mt2.index.nlevels
