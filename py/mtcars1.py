@@ -348,3 +348,23 @@ plt.show() ;#wedge 0.5 from the center of the pie
 #colors - r, g, b, c, m, y, k, w
 #%%% Seaborn
 sns.pairplot(mt)
+
+
+#%%% pending topics
+#drop col
+#merge DF
+#join DF
+#concat DF
+#search for values
+#regex
+#create dict from DF
+#import from different sources
+#set datatypes when importing
+#duplicates
+#missing values
+#is in 
+#pivot table
+#crosstab
+#reshape/melt
+#stack/unstack
+#datetime manipulation
