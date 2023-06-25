@@ -8,7 +8,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 import datetime as dt
-import pydataset as data
+from pydataset import data
 import requests
 from bs4 import BeautifulSoup
 #%%%
