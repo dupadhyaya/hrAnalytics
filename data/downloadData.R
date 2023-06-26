@@ -1,4 +1,10 @@
 #download data into this folder from web
+
+#other sources------
+#https://github.com/dphi-official/Datasets
+
+
+#----------
 hrfolder0 = 'E:/analytics/projects/hranalytics/data/'
 #https://www.kaggle.com/datasets/rhuebner/human-resources-data-set?resource=download
 folder1 = 'set1/'

@@ -36,6 +36,17 @@ numCols
 mt[numCols]
 mt[catCols] = mt[catCols].astype('category')
 mt[catCols]
+mt.gear.cat.categories
+mt['gear'].cat.categories
+mt['gear'].cat.rename_categories(['Gear3','Gear4','Gear5'])
+mt['gear'] = mt['gear'].cat.rename_categories(['Gear3','Gear4','Gear5'])
+['Carb' + str(i) for i in mt.carb.cat.categories]
+mt['carb'] = mt['carb'].cat.rename_categories(['Carb' + str(i) for i in mt.carb.cat.categories])
+mt[catCols]
+mt.gear.cat.categories
+mt['gear'] = mt.gear.cat.reorder_categories(['Gear5','Gear3','Gear4'])
+
+
 mt.describe(include='all')
 #%%%dates & carnames
 mt['carnames'] = mt.index
