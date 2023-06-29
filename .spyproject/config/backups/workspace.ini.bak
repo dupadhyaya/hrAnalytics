@@ -4,7 +4,7 @@ save_data_on_exit = True
 save_history = True
 save_non_project_files = False
 project_type = 'empty-project-type'
-recent_files = ['py\\hra.html', 'py\\mtcars1.py', 'py\\createDF.py', 'py\\webExtract1.py', 'py\\search1.py', 'py\\links1.html', 'clusterLog.py']
+recent_files = ['py\\hra.html', 'py\\mtcars1.py', 'py\\createDF.py', 'py\\webExtract1.py', 'py\\search1.py', 'py\\links1.html', 'py\\clusterLog.py', 'py\\mpl1.py']
 
 [main]
 version = 0.2.0
