@@ -1,0 +1,60 @@
+﻿First LastName
+108, Bandra
+Mumbai.
+Mobile: +91-99********
+E-mail: *******@gmail.com 
+--------------------------------------------------------------------------------------------------------------------------------------
+Career Summary
+* More than 5 years of experience in the field of HRM and HR Analytics
+* Experienced in man power planning, recruitment, developing performance management system, developing employee welfare programs, identifying training needs and conducting trainings, employee grievance handling, developing and implementing disciplinary policies, conducting exit interview, final settlement of employees. 
+* Good communication and interpersonal skills.
+* Well versed with People Soft.
+* Ability to Analyse Data and Interepret findings from Graphs
+
+Key Skills
+* Developing the HR plans and policies in conjunction with the company?s over all development plan.
+* Overall responsibility of man power planning and recruitments. 
+* Developing the induction programmes for the new recruits. 
+* Working out the compensation plan and policies. 
+* Conducting researches to study the current compensation trends in the market. 
+* Developing and implementing the performance appraisal system for the company and co-ordinating it with other line managers. 
+* Co-ordinating with finance department for processing of payments to employees. 
+* Identifying the training needs, developing training programs to ensure constant learning and development of employees.
+* Establishing a proper organizational structure. 
+* Developing and implementing disciplinary policies. 
+* Developing and implementing employee welfare policies. 
+* Developing the exit process for the employees. 
+* Dealing with the final settlement of employees when they leave. 
+* Maintaining good internal communication within the company. 
+* Developing various reports for management which make it easy to make decisions regarding the current resources.
+* Data Analytics - Data Import, Data Cleaning, Data Transformation, Data Visualisation, Data Modeling, Data Evaluation
+
+Achievements
+* Settled the HR department for ?ABC? company from scratch in 2009.
+* Recruited 35 candidates through campus placements for ?XYZ Co.? in 2010. 
+* Implemented the 360 degree performance appraisal system for ?XYZ? company in 2010.
+
+Employers
+* Currently working as HR Manager for ?XYZ Co.? since Mar-2009.
+* Worked as Asst. Manager ? HR for ?ABC Co.? from April- 2006 to Jan-2009
+
+Educational Qualifications
+* MBA in HR from Mumbai University in the year 2001. 
+* Diploma in Employee Welfare Management from Madurai University.
+* Certificate Course in HR Data Analytics from Top Institute
+
+Computer Knowledge
+* Well versed with MS Office, Windows 2000, XP.
+* Working knowledge of Peoplesoft HRMS.
+* Knowledge of Python Programming, R Programming, Tableau
+* Knowledge of Data Science, Data Mining, Machine Learning
+
+Personal Details
+* Date of birth15th Mar, 19**
+* Languages known    :English, Hindi, Tamil.
+
+Keywords
+* Python, Python, Python, Python, Python, Python, Python
+* RProgramming, RProgramming, RProgramming, RProgramming, RProgramming
+* Analytics, Analytics, Analytics
+* HR, HR, HR, HR
