@@ -1,0 +1,15 @@
+The data simulates a typical Business environment dataset related to Human Resources information. It contains 3 data sets:
+
+Employee data, with information like, name, Date of Birth, Date of hire, Department, etc.
+Action data, indicating actions like, hiring, promotions, demotions, attrition.
+Performance data. For each employee for each period.
+The 3 data set can be related through the Employee ID.
+The current data set spans over 10 periods (2015-2024) with an average active employees of 1000 per year.
+The replacement rate (new hire and attrition) is set to be about 5% per year.
+The age of employment is coherent with the typical distribution of ages.
+The likelihood of promotions is linked to performance rate.
+
+There are 2 planted biases in the data:
+
+A Gender Bias (Female(1) employees tend to get better performance ratings)
+A Race Bias (Asians (1) are more likely to be promoted)
