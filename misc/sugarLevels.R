@@ -16,6 +16,7 @@ head(sugar1)
 sugar1 %>% arrange(dateTime) %>% group_by(dateTest = strftime(dateTime, format='%d-%b'), timeTest = strftime(dateTime, format='%H%M') )  %>% summarise(n=n(), avg = mean(Value, na.rm=T))
 
 sugar1 %>% arrange(dateTime) %>% group_by(dateTest = strftime(dateTime, format='%d-%b'))  %>% summarise(n=n(), avg= mean(Value, na.rm=T))
+range(sugar1$dateTime)
 
 sugar1 %>% arrange(dateTime) %>% group_by(dateTest = month(dateTime, label=T)) %>% summarise(n=n(), avg = mean(Value, na.rm=T), min = min(Value, na.rm=T), max=max(Value, na.rm=T))
 
@@ -82,3 +83,17 @@ sugar2B %>% mutate(rmonth = lubridate::month(Date, label=T)) %>% ggplot(., aes(x
 T1='VU : Glucose Readings : Readings over 4 intervals(0-6am, 6-12pm, 12-6pm, 6-0am) in last few months'
 g5A <- sugar2B %>% mutate(rmonth = lubridate::month(Date, label=T), timePD = cut(numTime, breaks=breaks1, labels=c('0-6','6-12', '12-18','18-24'))) %>% ggplot(., aes(x=timePD, y=Value, fill=rmonth))  + stat_summary(fun.y=mean, geom="point", shape=23, size=2)+ geom_boxplot(width=0.5) + scale_fill_brewer(palette="Set2") + geom_jitter(shape=16, position=position_jitter(0.2)) +  scale_y_continuous(limits=c(1, 375)) + facet_grid( . ~ rmonth ) + labs(title=T1)
 g5A
+
+
+
+#HbAIC
+#Unit mg/dL
+#AIC = (46.7 + Glucose) / 28.7 
+head(sugar)
+tail(sugar)
+mean(sugar$Value)
+#(AIC = (46.7 + mean(sugar$Value)) / 28.7 )
+#(Glucose=  (28.7 X HbA1C) – 46.7
+head(sugar1)
+range(sugar1$dateTime)
+sugar1 %>% group_by(month = lubridate::month(dateTime, label=T))  %>% summarise(meanS = mean(Value, na.rm=T), count=n()) %>% mutate(HbA1C = (46.7 + meanS)/28.7 )
