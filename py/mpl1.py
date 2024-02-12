@@ -16,14 +16,14 @@ mt.sort_values(by='wt', inplace=True)
 mt.columns
 numCols = ['wt','mpg','hp','disp', 'qsec']
 mt[numCols]
-%matplotlib inline
+#%matplotlib inline
 plt.close('all')
 plt.cla()
 plt.clf()
 %clear
 #%reset
 #%%% plot1
-%matplotlib
+#%matplotlib
 plt.plot(mt.wt, mt.mpg)
 plt.show();
 
